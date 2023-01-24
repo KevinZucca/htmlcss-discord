@@ -57,6 +57,11 @@ nav .logo {
     color: white;
 }
 
+#links ul li a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
 nav #access-form {
     background-color: white;
     border-radius: 20px;
@@ -104,11 +109,17 @@ nav #access-form {
     font-weight: bold;
 }
 
+
 .download-buttons #discord-browser {
     background-color: #23272a;
     color: white;
 }
 
+.download-buttons #discord-browser:hover {
+    cursor: grab;
+    background-color: #36393f;
+    box-shadow:5px 10px 18px #6873f3 ;
+}
 /* /END HEADER */
 
 
@@ -331,4 +342,14 @@ footer .footer-logo {
 
 #inverted-wave {
     transform: rotate(180deg);
+}
+
+.hover:hover {
+    color: #6873f3;
+    cursor: grab;
+    box-shadow: 5px 10px 18px #6873f3 ;
+}
+
+.grab:hover {
+    cursor: grab;
 }
