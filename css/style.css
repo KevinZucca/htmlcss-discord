@@ -187,6 +187,7 @@ main #four {
 }
 
 .container-four {
+    max-width: 800px;
     width: 100%;
     display: flex;
     flex-flow: column nowrap;
@@ -196,7 +197,7 @@ main #four {
 }
 
 .container-four .orizontal-picture {
-    height: 600px;
+    height: 500px;
     width: 100%;
     background-image: url("../img/item4-big.svg");
     background-size: contain;
@@ -208,9 +209,14 @@ main #four {
 }
 
 .adventure #ready-adventure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 80px;
     width: 600px;
-    background-color: white;
+    background-image: url("../img/stars.svg");
+    background-size: contain;
+    background-repeat:no-repeat;
 }
 
 .adventure {
@@ -218,9 +224,11 @@ main #four {
     flex-flow: column nowrap;
 }
 
-.adventure #adventure-badge {
+.adventure .adventure-badge {
     align-self: center;
-    margin-top: 20px;
+    margin: 20px;
+    background-color: #7289da;
+    color: white;
 }
 /* /SECTION 4 */
 
@@ -233,7 +241,7 @@ main #four {
 /* FOOTER */
 footer {
     height: 550px;
-    background-color: rgb(89, 89, 199);
+    background-color: #23272a;
 }
 
 .lists {
@@ -250,10 +258,19 @@ footer {
     display: flex;
     flex-direction: column;
     background-color: white;
+    list-style-type: none;
+}
+
+#ita {
+    height: 1em;
 }
 
 #language {
     width: 230px ;
+}
+
+.social-logo {
+
 }
 
 .list {
