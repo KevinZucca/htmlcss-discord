@@ -319,3 +319,16 @@ footer .footer-logo {
     border-color: #7188da;
 }
 /* END FOOTER */
+
+
+/* extra bonus*/
+
+.wave {
+    width: 100%;
+    margin-bottom: -5px;
+
+}
+
+#inverted-wave {
+    transform: rotate(180deg);
+}
